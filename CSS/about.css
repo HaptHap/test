@@ -1,0 +1,92 @@
+body {
+    /* width: 80%; */
+    font-family: "PT Sans", sans-serif;
+    color: #333;
+    padding: 0px 0;
+    background-color: #fff;
+    margin-left: 150px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #2d2650;
+}
+
+.container {
+    margin-right: 175px;
+    margin-left: 125px;
+}
+
+.custom-form__heading {
+    margin-bottom: 36px;
+    font-size: 1.5625rem;
+    letter-spacing: 1.25px;
+}
+
+.section-heading {
+    font-family: "HandjetThin";
+    text-rendering: geometricPrecision;
+    color: #b1b3b3;
+    font-size: 1.5rem;
+    line-height: 1.13;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    /* max-width: 710px; */
+    /* margin: 0 0 150px;*/
+    margin-left: 110px;
+    /* margin-right: 175px; */
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+#section-heading-form{
+    font-family: "HandjetThin";
+    text-rendering: geometricPrecision;
+    color: #b1b3b3;
+    font-size: 1.5rem;
+    line-height: 1.13;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    /* max-width: 710px; */
+    /* margin: 0 0 150px;  */
+    margin-left: 150px;
+    /* margin-right: 175px; */
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+
+
+
+.fullWidthImage {
+    width: 100%; /* Растягиваем по ширине */
+    height: auto; /* Высота подстраивается по пропорциям */
+    object-fit: cover; /* Сохраняем пропорции */
+    display: block; /* Убираем лишние отступы */
+    margin: 0; /* Убираем отступы */
+}
+
+
+  
+h2, h3 {
+    margin-left: 150px;
+    margin-right: 0;
+    padding-left: 20px; /* Добавляем отступы для лучшего расположения */
+}
+
+p {
+    margin-left: 110px;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+  
+
+
+
+.certification {
+    margin-left: 110px;
+
+}
