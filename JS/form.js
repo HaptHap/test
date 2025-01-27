@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
         noImmediatePrefix: false,
     });
 
-    phoneInput.setAttribute('maxlength', '16');
+    phoneInput.setAttribute('maxlength', '17');
 
     phoneInput.addEventListener('input', function () {
         const rawValue = cleavePhone.getRawValue();
