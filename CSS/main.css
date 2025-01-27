@@ -690,23 +690,31 @@ body, html {
     background-color: #e4c81a;
     transform: scale(1.2);
   }
-.logos-container {
-    display: flex;
-    flex-direction: column;
+  .logos-container {
     overflow: hidden;
+    white-space: nowrap;
     width: 100%;
+  }
+  
+  .logos {
+    display: inline-flex;
+    gap: 20px; /* Расстояние между элементами */
     white-space: nowrap;
     position: relative;
+    flex: 0 0 auto; /* Запрещает изменение размера, чтобы они двигались по точной ширине */
   }
-
-  .logos {
-    display: flex;
-    gap: 40px;
+  
+  .logos span {
+    display: inline-block;
+    padding: 10px 20px;
     font-size: 20px;
-    font-weight: bold;
+    background: #f3f3f3;
+    border-radius: 10px;
+    margin-right: 20px; /* Учитываем отступ при расчете ширины */
   }
+  
 
-  .left-to-right {
+  /* .left-to-right {
     position: relative;
     left: -100%;
   }
@@ -714,7 +722,7 @@ body, html {
   .right-to-left {
     position: relative;
     right: -100%;
-  }
+  } */
 
 
 
